@@ -14,28 +14,27 @@ import javax.persistence.Table;
 @Table(name = "tb_client")
 public class Client implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private String cpf;
 	private Double income;
-	
+
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
-	private Instant birthDate;
+	private Instant birth_Date;
 	private Integer children;
-	
+
 	public Client() {
 	}
 
-	public Client(Long id, String name, String cpf, Double income, Instant birthDate, Integer children) {
-		super();
+	public Client(Long id, String name, String cpf, Double income, Instant birth_Date, Integer children) {
 		this.id = id;
 		this.name = name;
 		this.cpf = cpf;
 		this.income = income;
-		this.birthDate = birthDate;
+		this.birth_Date = birth_Date;
 		this.children = children;
 	}
 
@@ -71,12 +70,12 @@ public class Client implements Serializable {
 		this.income = income;
 	}
 
-	public Instant getBirthDate() {
-		return birthDate;
+	public Instant getBirth_Date() {
+		return birth_Date;
 	}
 
-	public void setBirthDate(Instant birthDate) {
-		this.birthDate = birthDate;
+	public void setBirth_Date(Instant birth_Date) {
+		this.birth_Date = birth_Date;
 	}
 
 	public Integer getChildren() {

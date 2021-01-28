@@ -74,7 +74,7 @@ public class ClientService {
 		entity.setName(dto.getName());
 		entity.setCpf(dto.getCpf());
 		entity.setIncome(dto.getIncome());
-		entity.setBirthDate(dto.getBirthDate());
+		entity.setBirth_Date(dto.getBirth_Date());
 		entity.setChildren(dto.getChildren()); 
 	}
 }

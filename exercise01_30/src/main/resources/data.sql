@@ -1,0 +1,12 @@
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Dom Hélder Câmara', '12378965499', 1516.21, TIMESTAMP WITH TIME ZONE '2020-07-13T20:14:07.12345Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Gilberto Freyre', '75395185279', 3758.21, TIMESTAMP WITH TIME ZONE '2020-06-15T21:15:05Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Pelópidas Silveira', '96325814732', 779.12, TIMESTAMP WITH TIME ZONE '2020-05-17T22:16:04Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Josué de Castro', '43572985278', 25989.64, TIMESTAMP WITH TIME ZONE '2020-04-19T23:17:00Z', 4);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Barreto de Menezes', '95780100155', 1789.0, TIMESTAMP WITH TIME ZONE '2020-03-21T18:18:33Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Antônio Dias Cardoso', '12395314388', 3789.24, TIMESTAMP WITH TIME ZONE '2020-02-23T17:19:17.12345Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Antônio Filipe Camarão', '25385970166', 1987.12, TIMESTAMP WITH TIME ZONE '2020-01-12T16:20:00', 1);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Henrique Dias', '72943585711', 4789.55, TIMESTAMP WITH TIME ZONE '2019-12-14T15:21:07Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('André Vidal de Negreiros', '96630588752', 2235.65, TIMESTAMP WITH TIME ZONE '2020-08-16T14:22:41Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Maurício de Nassau', '65855214198', 3749.0, TIMESTAMP WITH TIME ZONE '2020-09-18T13:23:01Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Francisco Barreto de Menezes', '35879366601', 1825.49, TIMESTAMP WITH TIME ZONE '2020-10-20T12:00:29Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('João Fernandes Vieira', '98426482577', 3412.75, TIMESTAMP WITH TIME ZONE '2020-11-22T11:01:32.12345Z', 1);
